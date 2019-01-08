@@ -159,7 +159,7 @@
     height 30px
     margin-top -196px
     margin-left 466px
-    background red
+
     position absolute
   .result
     height 65px
