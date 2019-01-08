@@ -18,10 +18,10 @@ npm run build
 npm run build --report
 ```
 
-<h2>  一款用vuejs仿qq音乐及酷狗PC端网站 <h2>
+<h2>  一款用vuejs仿qq音乐及酷狗PC端网站 
 
 
-
+<h4>
 技术栈
 vue+vue-router（核心框架）
 element-ui（为了方便美观使用它完成一些布局）
