@@ -34,3 +34,4 @@ axios（请求）
 
 
 最后上几张效果图
+![image](https://github.com/Acooll/vue-music/master/screenShots/vue-demo.png)
