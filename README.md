@@ -18,7 +18,7 @@ npm run build
 npm run build --report
 ```
 
-一款用vuejs仿qq音乐及酷狗PC端网站
+<h2>  一款用vuejs仿qq音乐及酷狗PC端网站 <h2>
 
 
 
