@@ -34,4 +34,4 @@ axios（请求）
 
 
 最后上几张效果图
-![images](https://github.com/Acooll/vue-music/raw/master/screenShots/vue-demo.png)
+![images](https://github.com/Acooll/vue-music-website/raw/master/screenShots/vue-demo.png)
