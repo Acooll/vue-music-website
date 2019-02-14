@@ -1,6 +1,5 @@
 <template>
 <div class="container">
-
     <page-header/>
   <div>
       <div>
@@ -67,7 +66,8 @@
         searchWords: '',
         searches: '',
         res:'',
-        interval:''
+        interval:'',
+        songmid:"",
       }
     },
     components: {
@@ -85,19 +85,20 @@
           }
         }).then((res) => {
           that.searches = res.data.msg.data.song.list
-          //console.log(that.searches)
-          //console.log(that.searches)
+          console.log(that.searches)
         })
       },
       jumpPlayer: function (e) {
-       this.album_mid = this.searches[e].album.mid
+        this.album_mid = this.searches[e].album.mid
+        this.songmid = this.searches[e].mid
         this.interval = this.searches[e].interval
         var that = this
         this.$axios({
           method: 'post',
           url: 'api/getSongresouce',
           data: {
-            album_mid: that.album_mid,
+            // album_mid: that.album_mid,
+            songmid:that.songmid,
             interval: that.interval
           }
         }).then((res) => {

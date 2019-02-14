@@ -152,7 +152,6 @@ import  Lyric from 'lyric-parser'
           that.value1 += 100 / that.interval
           that.time += 1
         }, 1000)
-
       bus.$on('sender',(res)=>{
           that.interval = res.interval
           let lyric =  Base64.decode(res.lyric)
